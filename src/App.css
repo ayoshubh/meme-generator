@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,61 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  font-family:cursive;
+}
+
+.header{
+  display:flex;
+  align-items:center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+#headerId{
+  width:45px;
+  height:45px;
+  margin-left: 100px;
+}
+
+.header-title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.header-project {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+.form {
+  margin: 20px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #0c002e;
+  text-indent: 5px;
+  
+}
+
+.memeButton {
+  grid-column: 1 / -1;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
